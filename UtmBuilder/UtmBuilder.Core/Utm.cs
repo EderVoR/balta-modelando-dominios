@@ -1,11 +1,10 @@
-﻿using System.Reflection.Metadata.Ecma335;
+﻿using UtmBuilder.Core.Extensions;
 using UtmBuilder.Core.ValueObjects;
 using UtmBuilder.Core.ValueObjects.Exceptions;
-using UtmBuilder.Core.ValueObjects.Extensions;
 
 namespace UtmBuilder.Core
 {
-	public class Utm
+    public class Utm
 	{
         public Utm(Url url, Campaign campaign)
         {
